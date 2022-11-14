@@ -6,21 +6,20 @@
     letter-spacing: 0.03em;
     color: var(--accent-color);
 
-}
-
-.logo-accent {
-    color: black;
-}
-
-.logo-accent-inverse {
-    color: white;
-}
-
-.logo-black {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: black;
+    &-accent {
+        color: black;
+    }
+    
+    &-accent-inverse {
+        color: white;
+    }
+    
+    &-black {
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: black;
+    }
 }

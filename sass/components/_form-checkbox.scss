@@ -17,25 +17,25 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
 
-.checkbox-icon {
-    width: 16px;
-    height: 16px;
-    border: 2px solid var(--primary-color);
-    border-radius: 2px;
-    position: absolute;
-    top: 50%;
-    left: 8px;
-    transform: translateY(-50%);
-}
-
-.checkbox:checked+.checkbox-icon {
-    width: 16px;
-    height: 16px;
-    border-color: transparent;
-    background-color: var(--accent-color);
-    background-image: url(../images/checkbox-tick.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    &-icon {
+        width: 16px;
+        height: 16px;
+        border: 2px solid var(--primary-color);
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+        left: 8px;
+        transform: translateY(-50%);
+    }
+    
+    &:checked + &-icon {
+        width: 16px;
+        height: 16px;
+        border-color: transparent;
+        background-color: var(--accent-color);
+        background-image: url(../images/checkbox-tick.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }

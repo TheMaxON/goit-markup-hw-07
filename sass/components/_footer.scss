@@ -78,14 +78,14 @@
         color: white;
         border-radius: 50%;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: var(--accent-color);
+        }
     }
-    
-    &__socials-link:hover,
-    &__socials-link:focus,
-    &__socials-link:active {
-        background-color: var(--accent-color);
-    }
-    
+        
     &__socials-icons {
         width: 20px;
         height: 20px;
@@ -144,17 +144,17 @@
         line-height: 1.88;
         letter-spacing: 0.06em;
         color: white;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: var(--active-color);
+        }
     }
 
     .send-icon {
         width: 24px;
         height: 24px;
         fill: white;
-    }
-    
-    &__contact-btn:hover,
-    &__contact-btn:focus,
-    &__contact-btn:active {
-        background-color: var(--active-color);
     }
 }

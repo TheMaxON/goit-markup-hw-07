@@ -14,33 +14,33 @@
         background-color: white;
         border-radius: 0 0 4px 4px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+        &-photo {
+            width: 100%;
+        }
+        
+        &-info {
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        &-name {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            margin-bottom: 10px;
+        }
+        
+        &-job {
+            font-size: 16px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            color: var(--secondary-color);
+            margin-bottom: 16px;
+        }
     }
-    
-    &__member-photo {
-        width: 100%;
-    }
-    
-    &__member-info {
-        text-align: center;
-        padding: 30px 0;
-    }
-    
-    &__member-name {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        margin-bottom: 10px;
-    }
-    
-    &__member-job {
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--secondary-color);
-        margin-bottom: 16px;
-    }
-    
+        
     &__socials-wrapper {
         display: flex;
         justify-content: center;
@@ -57,15 +57,15 @@
         border-radius: 50%;
         color: var(--icons-color);
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: var(--accent-color);
+            color: white;
+        }
     }
-    
-    &__socials-link:hover,
-    &__socials-link:focus,
-    &__socials-link:active {
-        background-color: var(--accent-color);
-        color: white;
-    }
-    
+        
     .socials-icon {
         width: 20px;
         height: 20px;

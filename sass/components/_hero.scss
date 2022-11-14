@@ -41,11 +41,11 @@
         text-align: center;
         letter-spacing: 0.06em;
         color: white;
-    }
-    
-    &__btn:hover,
-    &__btn:focus,
-    &__btn:active {
-        background-color: var(--active-color);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: var(--active-color);
+        }
     }
 }
